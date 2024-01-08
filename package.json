@@ -1,21 +1,21 @@
 {
-  "name": "MAN",
+  "name": "TRAP",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://IVoynelovych.github.io/MAN",
+  "homepage": "https://IVoynelovych.github.io/TRAP",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /MAN/"
+    "build": "parcel build src/*.html --public-url /TRAP/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IVoynelovych/MAN.git"
+    "url": "git+https://github.com/IVoynelovych/TRAP.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IVoynelovych/MAN/issues"
+    "url": "https://github.com/IVoynelovych/TRAP/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
