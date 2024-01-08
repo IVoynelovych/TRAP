@@ -1,0 +1,7 @@
+<svg id="checked" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icons/24/check/Default">
+<circle id="Ellipse 38" cx="12" cy="12" r="10" fill="#F6FFF3"/>
+<path id="Vector 20" d="M9 11L11.2929 13.2929C11.6834 13.6834 12.3166 13.6834 12.7071 13.2929L22 4" stroke="#58D513" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Ellipse 21" d="M17 3.5C15.3285 2.24418 14.2516 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 11.3151 21.9311 10.6462 21.8 10" stroke="#58D513" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>

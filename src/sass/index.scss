@@ -1,0 +1,19 @@
+@import "/src/sass/reset";
+@import "./reuseble_section/header.scss";
+@import "./reuseble_section/test_filter.scss";
+@import "./reuseble_section/pagination.scss";
+@import "./reuseble_section/session_details.scss";
+@import "./unreusable/left_bar.scss";
+@import "./unreusable/tests.scss";
+@import "./unreusable/left_bar.scss";
+.main-part{
+    background-color: white;
+}
+.left_bar{
+    display: none;
+}
+@media screen and (min-width:1440px) {
+    .main-part{
+        width: 940px;
+    }
+}

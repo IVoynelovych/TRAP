@@ -1,0 +1,111 @@
+header{
+    max-width: 320px;
+    display: block;
+    margin:0 auto 40px ;
+}
+.teacher-acc{
+    display: none;
+    align-items: center;
+    gap: 20px;
+}
+.teachers_name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.teachers_pic{
+    width: 60px;
+    height: 60px;
+}
+.head-cont{
+    max-width: 320px;
+    padding: 0 16px;
+}
+.nav-menu_head{   
+    border-bottom: 1px solid rgba(203, 210, 224, 1);
+    margin-bottom: 12px;
+}
+.nav-menu_head_cont{
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.burger-btn{
+    background-color: transparent;
+    border: transparent;
+}
+.burger-btn_svg{
+    width: 44px;
+    height: 44px;
+}
+.main-btn{
+    background-color: transparent;
+    border: transparent;
+}
+.main-bt-svg{
+    width: 170px;
+    height: 54px;
+}
+.fast_nav{
+    display: flex;
+    gap: 4px;
+}
+.fast_nav_item{
+    color: black ;
+    font-size: 10px;
+    font-weight: 400;
+     
+}
+.active{
+    color: gray;
+}
+@media screen and (min-width:768px) {
+    header{
+        max-width: 768px;
+    }
+    .head-cont{
+        max-width: 768px;
+        padding: 0 24px;
+    }
+    .nav-menu_head{   
+        border-bottom: 3px solid rgba(245, 228, 255, 1);
+        margin-bottom: 20px;
+    }
+    .nav-menu_head_cont{
+        padding: 16px 0;
+    }
+    .main-bt-svg{
+        width: 230px;
+        height: 76px;
+    }
+    .fast_nav_item{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.4;         
+    }
+    .fast_nav{
+        gap: 12px;
+    }
+}
+@media screen and (min-width:1440px){
+    .burger-btn{
+        display: none;
+    }
+    .main-btn{
+        display: none;
+    }
+    .teacher-acc{
+        padding: 16px 20px 16px 547px;
+        justify-content: right;
+        display: flex;
+        text-align: right;
+    }
+    header{
+        margin-bottom: 60px;
+        max-width: 1440px;
+        
+    }
+    .head-cont{
+        max-width: 1440px;
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="./sass/unreusable/student_info.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-part">
+      <include src="./reuseble_section/header.html"></include>
+      <include src="./reuseble_section/session_details.html"></include>
+      <section class="tasks">
+        <div class="tesks-cont">
+            <ul class="tesks-list">
+                <li class="tesks-list-item tesks-list-item-title">
+                    <p class="tesks-disc">№</p>
+                    <p class="tesks-disc quest">Питання</p>
+                    <p class="tesks-disc">Оцінка</p>
+                </li>
+                <li class="tesks-list-item">
+                    <p class="tesks-disc">1.</p>
+                    <p class="tesks-disc quest">Які виклики стоять перед сучасною наукою у розв'язанні глобальних проблем?</p>
+                    <p class="tesks-disc mark">12/12</p>
+                    <p class="tesks-disc">
+                        <svg class="tesks-svg">
+                            <use href="./icomoon/SVG/down.svg#down"></use>
+                        </svg>
+                    </p>
+                </li>
+                <li class="tesks-list-item incorrect">
+                    <div class="opened-quest">
+                        <p class="tesks-disc">2.</p>
+                        <p class="tesks-disc quest">Які виклики стоять перед сучасною наукою у розв'язанні глобальних проблем?</p>
+                        <p class="tesks-disc incorrect_ans mark">0/12</p>
+                    <svg class="tesks-svg open">
+                        <use href="./icomoon/SVG/down.svg#down"></use>
+                    </svg>
+                    </div>
+                    
+                    <div class="question_information">
+                        <ul class="answers_list">
+                            <li class="answer_variants"><div class="cheack-castom"></div><p class="answ-text correct">Відповідь</p></li>
+                            <li class="answer_variants"><div class="cheack-castom"></div><p class="answ-text">Відповідь</p></li>
+                            <li class="answer_variants"><div class="cheack-castom"></div><p class="answ-text">Відповідь</p></li>
+                            <li class="answer_variants"><div class="cheack-castom"></div><p class="answ-text wrong">Відповідь Учня</p></li>
+                        </ul>
+                        <div class="student-details">
+                            <button type="button" class="edit-btn">Редагувати
+                            <svg class="edit-svg">
+                                <use href="./icomoon/SVG/edit.svg#edit"></use>
+                            </svg>
+                            </button>
+                            <p class="unactive-time">Час не активності <span>156 хв</span></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </section>
+      <include src="./reuseble_section/pagination.html"></include>
+    </div>
+    <div class="left_bar">
+        <include src="./left_mod.html"></include>
+      </div>
+      <include src="./left_bar.html"></include>
+    </body>
+    <script src="index.js"></script>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="./sass/unreusable/session_info.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-part">
+        <include src="./reuseble_section/header.html"></include>
+        <include src="./reuseble_section/session_details.html"></include>
+        <section class="students">
+            <div class="students-cont">
+                <ul class="students-list">
+                    <li class="students-list-item titled">
+                        <p class="students-text">№</p>
+                        <p class="students-text name">Учень</p>
+                        <p class="students-text">Оцінка</p>
+                        <p class="students-text">Перевірка</p>
+                    </li>
+                    <li class="students-list-item">
+                        <a href="./student_info.html" class="student_link">
+                            <p class="students-text">1</p>
+                            <p class="students-text name">Многогрішний Григорій</p>
+                            <p class="students-text">100/100</p>
+                            <svg class="student-svg">
+                                <use href="./icomoon/SVG/checked.svg#checked"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="students-list-item color">
+                        <a href="./student_info.html" class="student_link">
+                            <p class="students-text">1</p>
+                            <p class="students-text name">Многогрішний Григорій</p>
+                            <p class="students-text">100/100</p>
+                            <svg class="student-svg">
+                                <use href="./icomoon/SVG/unchecked.svg#unchecked"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <include src="./reuseble_section/pagination.html"></include>
+    </div>
+    <div class="left_bar">
+        <include src="./left_mod.html"></include>
+      </div>
+      <include src="./left_bar.html"></include>
+    </body>
+    <script src="index.js"></script>
+</html>

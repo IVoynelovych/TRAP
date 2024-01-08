@@ -1,0 +1,165 @@
+.session-dit{
+    max-width: 320px;
+    margin:0 auto 16px;
+}
+.session-dit + .session-dit{
+    margin-bottom: 28px;
+}
+.session-dit-cont{
+    padding: 0 16px ;
+    border: 1px solid rgba(180, 245, 255, 1);
+    border-radius: 40px;
+    background-color: white;
+}
+.class-rate{
+    display: none;
+}
+.session-inform-svg{
+    width: 40px;
+    height: 40px;
+}
+.session-ditail-cont{
+    padding: 20px 8px;
+}
+.session-inform-text{
+    padding:0 16px;
+}
+.session-inform{
+    display: flex;
+}
+.det-mob{
+    display: flex;
+    gap: 88px;
+}
+.session-title{
+font-size: 14px;
+font-weight: 500;
+line-height: 1.4;
+margin-bottom: 4px;
+}
+.session-info{
+font-size: 12px;
+font-weight: 500;
+line-height: 1.4;
+}
+.session-time-dit{
+    display: flex;
+    gap: 32px;
+    padding: 8px;
+}
+.unactive{
+    display: none;
+}
+.session-item{
+font-size: 12px;
+font-weight: 400;
+line-height: 1.4;
+}
+.session-item + .session-item{
+    margin-top: 8px;
+}
+.stat-del-ed{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .session-dit{
+        max-width:768px;
+        margin:0 auto 20px;
+    }
+    .session-dit + .session-dit{
+        margin-bottom: 32px;
+    }
+    .session-dit-cont{
+        padding: 0 24px ;
+        border:none;
+    }
+    .class-rate{
+        display: block;
+    }
+    .class-rate-svg{
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    .session-inform-svg{
+        display: none;
+    }
+    .session-ditail-cont{
+        padding: 20px 16px;
+        border: 1px solid rgba(180, 245, 255, 1);
+        border-radius: 40px;
+        background-color: rgba(233, 252, 255, 1);
+    }
+    .session-title{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+    .session-info{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+    .det-mob{
+        display: flex;
+        gap: 90px;
+        padding: 16px 40px 16px 16px;
+        background-color: white;
+        border-radius: 28px;
+    }
+    .session-time-dit{
+        gap: 20px;
+    }
+    .session-item{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .session-item + .session-item{
+        margin-top: 16px;
+    }
+    .class-rate-disc{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.4;
+margin: 0 auto 24px;
+width: 156px;
+
+    }
+    .class-rate{
+        width: 280px;
+        background-color: white;
+        border-radius: 28px;
+        padding: 20px 0;
+    }
+    .stat-del-ed{
+        display: flex;
+    }
+    .stat-del-ed-svg{
+        width: 44px;
+        height: 44px;
+        padding: 8px;
+        border: 1px solid rgba(180, 245, 255, 1);
+        border-radius: 50px;
+    }
+    .session-inform{
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+@media screen and (min-width:1440px){
+    .session-dit{
+        max-width:940px;
+        margin:0 auto 20px;
+    }
+    .session-dit-cont{
+        padding: 0 16px ;
+        border:none;
+    }
+    .det-mob{
+        gap: 108px;
+        padding: 16px 210px 16px 16px;
+    }
+}
