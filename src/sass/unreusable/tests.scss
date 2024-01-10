@@ -1,13 +1,11 @@
 .sessions{
-    max-width: 320px;
-    display: block;
     margin: 0 auto 28px;
 }
 .sessions-list-item-svg{
     width: 24px;
     height: 24px;
 }
-.sessions-cont{
+.cont{
     padding: 0 16px;
 }
 .sessions-list-item{
@@ -41,7 +39,7 @@ line-height: 1.4;
         max-width: 768px;
         margin-bottom: 32px;
     }
-    .sessions-cont{
+    .cont{
         padding: 0 24px;
     }
     .sessions-list-item{
@@ -69,7 +67,8 @@ line-height: 1.4;
         max-width: 940px;
         margin-bottom: 40px;
     }
-    .sessions-cont{
+    .cont{
+        max-width: 940px;
         padding: 0 20px;
     }
     .sessions-list-item{

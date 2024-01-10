@@ -58,6 +58,8 @@ html {
     cursor: pointer;
     padding: 0;
     margin: 0;
+    border: none;
+    background-color: #fff;
   }
   a {
     text-decoration: none;
@@ -67,5 +69,11 @@ html {
   input {
     padding: 0;
     margin: 0;
+  }
+  input:focus{
+    outline: none;
+  }
+  svg{
+    display:block;
   }
   

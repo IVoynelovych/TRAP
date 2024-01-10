@@ -13,7 +13,7 @@
   <body>
     <div class="main-part">
       <header>
-    <div class="head-cont">
+    <div class="cont">
         <div class="nav-menu_head">
             <div class="nav-menu_head_cont">
                 <button class="burger-btn" data-modal-open="">
@@ -44,7 +44,7 @@
     </div>
 </header>
       <section class="test_filter">
-    <div class="test_filter_cont">
+    <div class="cont">
         <input type="text" placeholder="Введіть назву тесту" class="test_name">
         <div class="test_filter_selects">
             <div class="test_filter_selects_options">
@@ -67,23 +67,25 @@
     </div>
 </section>
       <section class="sessions">
-        <div class="sessions-cont">
+        <div class="cont">
+          <div class="sessions-list-item sessions-list-item-title">
+            <p class="sessions-list-item-text">Предмет</p>
+            <p class="sessions-list-item-text">Клас</p>
+            <p class="sessions-list-item-text">Актуальність</p>
+            <p class="sessions-list-item-text">Назва тесту</p>
+          </div>
             <ul class="sessions-list">
-                <li class="sessions-list-item sessions-list-item-title">
-                    <p class="sessions-list-item-text">Предмет</p>
-                    <p class="sessions-list-item-text">Клас</p>
-                    <p class="sessions-list-item-text">Актуальність</p>
-                    <p class="sessions-list-item-text">Назва тесту</p>
-                </li>
                 <li class="sessions-list-item">
                     <a href="/session_info.html" class="session_link">
                       <p class="sessions-list-item-text">Предмет</p>
                       <p class="sessions-list-item-text">4</p>
                       <p class="sessions-list-item-text">-02:30</p>
                       <p class="sessions-list-item-text">Назва тесту</p>
-                      <svg class="sessions-list-item-svg">
-                          <use href="/more.0cd785ab.svg#more"></use>
-                      </svg>
+                      <button class="more_btn">
+                        <svg class="sessions-list-item-svg">
+                            <use href="/more.0cd785ab.svg#more"></use>
+                        </svg>
+                      </button>
                     </a>
                 </li>
                 <li class="sessions-list-item unchecked">
@@ -92,16 +94,18 @@
                     <p class="sessions-list-item-text">4</p>
                     <p class="sessions-list-item-text">-02:30</p>
                     <p class="sessions-list-item-text">Назва тесту</p>
-                    <svg class="sessions-list-item-svg">
-                        <use href="/more.0cd785ab.svg#more"></use>
-                    </svg>
+                    <button class="more_btn">
+                      <svg class="sessions-list-item-svg">
+                          <use href="/more.0cd785ab.svg#more"></use>
+                      </svg>
+                    </button>
                   </a>
                 </li>
             </ul>
         </div>
       </section>
       <section class="pagination">
-    <div class="pagination-cont">
+    <div class="cont">
         <div class="pagination-moves">
             <div class="page-pic">
                 <button type="button" class="btn-move">
