@@ -8,14 +8,21 @@
 @import "./unreusable/left_bar.scss";
 .main-part{
     background-color: white;
+    max-width: 320px;
+    margin: 0 auto;
 }
 .left_bar{
     display: none;
 }
+@media screen and (min-width:768px) {
+    .main-part{
+        max-width: 768px;
+    }
+}
 @media screen and (min-width:1440px) {
     .main-part{
-        width: 940px;
-    }
+        max-width: 940px;
+    }    
     .left_bar{
         display: block;
     }
