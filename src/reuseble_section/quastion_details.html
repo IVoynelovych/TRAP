@@ -5,28 +5,40 @@
                 <h2 class="type_title">Визначте тип запитання</h2>
                 <ul class="qust_settings_list">
                     <li class="qust_settings_list_item">
-                        <svg class="quest_svg">
-                            <use href="./icomoon/SVG/unpicked.svg#unpicked"></use>
-                        </svg>
-                        <p class="settings_text">Обрати варіант відповіді</p>
+                        <input  class="hid" type="radio" name="answer" id="answerA">
+                        <label for="answerA" class="labla">
+                            <svg class="quest_svg">
+                                <use href="./icomoon/SVG/unpicked.svg#unpicked"></use>
+                            </svg>
+                            <p class="settings_text">Обрати варіант відповіді</p>
+                        </label>
                     </li>
                     <li class="qust_settings_list_item">
-                        <svg class="quest_svg">
-                            <use href="./icomoon/SVG/picked.svg#picked"></use>
-                        </svg>
-                        <p class="settings_text">Декілька правильних відповідей</p>
+                        <input  class="hid" type="radio" name="answer" id="answerB">
+                        <label for="answerB" class="labla">
+                            <svg class="quest_svg">
+                                <use href="./icomoon/SVG/unpicked.svg#unpicked"></use>
+                            </svg>
+                            <p class="settings_text">Декілька правильних відповідей</p>
+                        </label>
                     </li>
                     <li class="qust_settings_list_item">
-                        <svg class="quest_svg">
-                            <use href="./icomoon/SVG/unpicked.svg#unpicked"></use>
-                        </svg>
-                        <p class="settings_text">Текстове питання</p>
+                        <input  class="hid" type="radio" name="answer" id="answerC">
+                        <label for="answerC" class="labla">
+                            <svg class="quest_svg">
+                                <use href="./icomoon/SVG/unpicked.svg#unpicked"></use>
+                            </svg>
+                            <p class="settings_text">Текстове питання</p>
+                        </label>
                     </li>
                     <li class="qust_settings_list_item">
-                        <svg class="quest_svg">
-                            <use href="./icomoon/SVG/multcheck.svg#multicheck"></use>
-                        </svg>
-                        <p class="settings_text conte">Рахувати час не активності учня під час відповіді на питання</p>
+                        <label for="answerA" class="few labl">
+                            <svg class="quest_svg">
+                                <use href="./icomoon/SVG/multiun.svg#multiun"></use>
+                            </svg>
+                            <p class="settings_text conte">Рахувати час не активності учня під час відповіді на питання</p>
+                        </label>
+                        <input type="radio" name="answer" id="answerA" class="hid">
                     </li>
                 </ul>
                 <input type="text" class="max-mark mod" placeholder="Оцінка">                
@@ -34,34 +46,43 @@
             <div class="input_quest"><input type="text" class="quest" placeholder="1. Введіть текст питання"><input type="text" class="max-mark mod pad" placeholder="Оцінка"></div>
             <ul class="answ_list">
                 <li class="answ_list_item">
-                    <svg class="quest_svg">
-                        <use href="./icomoon/SVG/multcheck.svg#multicheck"></use>
-                    </svg>
-                    <p class="ans correct">Відповідь А
-                    <svg class="more-svg">
-                        <use href="./icomoon/SVG/more.svg#more"></use>
-                    </svg></p>
-                    
+                    <label for="answerT" class="fews labl">
+                        <svg class="quest_svg">
+                            <use href="./icomoon/SVG/multiun.svg#multiun"></use>
+                        </svg>
+                        <p class="ans">Відповідь А
+                        <svg class="more-svg">
+                            <use href="./icomoon/SVG/more.svg#more"></use>
+                        </svg>
+                    </p>
+                    </label>
+                    <input type="radio" name="answer" id="answerT" class="hid">
                 </li>
                 <li class="answ_list_item">
-                    <svg class="quest_svg">
-                        <use href="./icomoon/SVG/multcheck.svg#multicheck"></use>
-                    </svg>
-                    <p class="ans correct">Відповідь А
-                    <svg class="more-svg">
-                        <use href="./icomoon/SVG/more.svg#more"></use>
-                    </svg></p>
-                    
+                    <label for="answerT" class="fews labl">
+                        <svg class="quest_svg">
+                            <use href="./icomoon/SVG/multiun.svg#multiun"></use>
+                        </svg>
+                        <p class="ans">Відповідь А
+                        <svg class="more-svg">
+                            <use href="./icomoon/SVG/more.svg#more"></use>
+                        </svg>
+                    </p>
+                    </label>
+                    <input type="radio" name="answer" id="answerT" class="hid">
                 </li>
                 <li class="answ_list_item">
-                    <svg class="quest_svg">
-                        <use href="./icomoon/SVG/multiun.svg#multiun"></use>
-                    </svg>
-                    <p class="ans">Відповідь А
-                    <svg class="more-svg">
-                        <use href="./icomoon/SVG/more.svg#more"></use>
-                    </svg></p>
-                    
+                    <label for="answerT" class="fews labl">
+                        <svg class="quest_svg">
+                            <use href="./icomoon/SVG/multiun.svg#multiun"></use>
+                        </svg>
+                        <p class="ans">Відповідь А
+                        <svg class="more-svg">
+                            <use href="./icomoon/SVG/more.svg#more"></use>
+                        </svg>
+                    </p>
+                    </label>
+                    <input type="radio" name="answer" id="answerT" class="hid">
                 </li>
             </ul>
             <ul class="btn_list_quest">

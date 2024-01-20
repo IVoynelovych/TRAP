@@ -20,6 +20,12 @@ html {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  .un_use{
+    display: none;
+  }
+  .hid{
+    display: none;
+  }
   .no-scroll{
     overflow: hidden;
   }
