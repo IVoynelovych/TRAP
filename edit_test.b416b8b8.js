@@ -1,0 +1,2 @@
+var btns=document.querySelectorAll(".few");function toggleSvg(e){var r=e.currentTarget.querySelector(".quest_svg");if(r.originalHtml||(r.originalHtml=r.innerHTML),e.currentTarget.classList.contains("svg-replaced"))r.innerHTML=r.originalHtml,e.currentTarget.classList.remove("svg-replaced");else{var t=document.getElementById("new-svg").innerHTML;r.innerHTML=t,e.currentTarget.classList.add("svg-replaced")}}btns.forEach((function(e){e.addEventListener("click",toggleSvg)}));
+//# sourceMappingURL=edit_test.b416b8b8.js.map
