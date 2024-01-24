@@ -60,15 +60,18 @@ width: 136px;
 }
 .nav_list_item{
     background-color: rgba(233, 252, 255, 1);
-    padding: 8px 12px;
     border-radius:28px ;
 }
 .nav_link{
     display: flex;
     gap: 16px;
+    padding: 8px 12px;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
+}
+.unl{
+    padding: 8px 12px;
 }
 .nav_list_disc{
 width: 128px;
@@ -92,6 +95,7 @@ line-height: 1.4;
     justify-content: space-between;
     gap: 16px;
     font-size: 14px;
+    padding: 8px 12px;
     font-weight: 500;
 }
 .classes{

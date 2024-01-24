@@ -9,7 +9,6 @@
     padding: 0 16px;
 }
 .sessions-list-item{
-    padding: 12px 4px;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -17,6 +16,7 @@
     border-radius: 16px;
 }
 .test_link{
+    padding: 12px 4px;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -27,6 +27,7 @@ font-weight: 400;
 line-height: 1.4;
 }
 .sessions-list-item-title{
+    padding: 12px 4px;
     border: none;
     gap: 33px;
     background-color: rgba(244, 245, 249, 1);
@@ -42,10 +43,10 @@ line-height: 1.4;
         padding: 0 24px;
     }
     .sessions-list-item{
-        padding: 12px 8px;
         gap: 160px;
     }
     .test_link{
+        padding: 12px 8px;
         gap: 160px;
     }
     .sessions-list-item-text{
@@ -58,6 +59,7 @@ line-height: 1.4;
             height: 44px;
     }
     .sessions-list-item-title{
+        padding: 12px 8px;
             gap: 145px;
     }
 }
@@ -70,10 +72,10 @@ line-height: 1.4;
         padding: 0 20px;
     }
     .sessions-list-item{
-        padding: 12px 12px;
         gap: 217px;
     }
     .test_link{
+        padding: 12px 12px;
         gap: 217px;
     }
     .sessions-list-item-svg{
@@ -82,5 +84,6 @@ line-height: 1.4;
     }
     .sessions-list-item-title{
             gap: 203px;
+            padding: 12px 12px;
     }
 }
