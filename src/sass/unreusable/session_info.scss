@@ -1,6 +1,5 @@
 .students{
-        max-width: 320px;
-        margin:0 auto 16px;
+        margin:0 0 16px;
 }
 .students-cont{
         padding: 0 16px ;
@@ -40,8 +39,7 @@
 }
 @media screen and (min-width:768px) {
     .students{
-        max-width: 768px;
-        margin:0 auto 28px;
+        margin:0 0 28px;
     }
     .students-cont{
         padding: 0 24px ;
@@ -68,8 +66,7 @@
 }
 @media screen and (min-width:1440px) {
     .students{
-        max-width: 940px;
-        margin:0 auto 32px;
+        margin:0 0 32px;
     }
     .students-cont{
         padding: 0 45px ;

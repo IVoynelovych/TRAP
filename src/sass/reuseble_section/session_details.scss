@@ -1,6 +1,5 @@
 .session-dit{
-    max-width: 320px;
-    margin:0 auto 16px;
+    margin:0 0 16px;
 }
 .session-dit + .session-dit{
     margin-bottom: 28px;
@@ -63,8 +62,7 @@ line-height: 1.4;
 }
 @media screen and (min-width:768px) {
     .session-dit{
-        max-width:768px;
-        margin:0 auto 20px;
+        margin:0 0 20px;
     }
     .session-dit + .session-dit{
         margin-bottom: 32px;
@@ -151,8 +149,7 @@ width: 156px;
 }
 @media screen and (min-width:1440px){
     .session-dit{
-        max-width:940px;
-        margin:0 auto 20px;
+        margin:0 0 20px;
     }
     .session-dit-cont{
         padding: 0 16px ;

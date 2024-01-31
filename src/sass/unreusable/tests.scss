@@ -6,6 +6,8 @@
     height: 24px;
 }
 .cont{
+    margin: 0 auto;
+    max-width: 320px;
     padding: 0 16px;
 }
 .sessions-list-item{
@@ -40,6 +42,7 @@ line-height: 1.4;
         margin-bottom: 32px;
     }
     .cont{
+        max-width: 768px;
         padding: 0 24px;
     }
     .sessions-list-item{
@@ -68,6 +71,7 @@ line-height: 1.4;
         margin-bottom: 40px;
     }
     .cont{
+        margin:0;
         max-width: 940px;
         padding: 0 20px;
     }

@@ -83,14 +83,14 @@ line-height: 1.4;
     margin-top: 8px;
 }
 .add{
-    border: 1px solid rgba(180, 245, 255, 1);
     background-color: white;
 }
 .nav_add_btn{
+    border-radius: 28px;
+    border: 1px solid rgba(180, 245, 255, 1);
     width: 100%;
     background-color:white;
     align-items: center;
-    border: none;
     display: flex;
     justify-content: space-between;
     gap: 16px;
@@ -130,9 +130,7 @@ line-height: 1.4;
     }
     body{
         max-width: 1440px;
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 60px;
+        position: relative;
         margin: 0 auto;
         padding: 0 80px;
     }
